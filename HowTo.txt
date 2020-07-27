@@ -1,0 +1,2 @@
+cd C:\Users\cmh419\tensorflow\guided-neural-style-master
+python stylize.py --mask_n_colors=1 --content_img=images/1.png --style_img=images/Van_Gogh/portrait.jpg --style_mask=images//Van_Gogh/portrait_mask.png --hard_width=512 --output_dir=1.png
