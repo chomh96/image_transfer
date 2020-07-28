@@ -12,6 +12,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# 결과 로그 상태 숨기기
+import os
+# 0 = all messages are logged (default behavior)
+# 1 = INFO messages are not printed
+# 2 = INFO and WARNING messages are not printed
+# 3 = INFO, WARNING, and ERROR messages are not printed
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
+
 import tensorflow as tf
 
 import numpy as np
