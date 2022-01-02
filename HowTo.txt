@@ -1,2 +1,0 @@
-cd C:\Users\cmh419\tensorflow\tensor-hub
-python style_transfer.py  --content_img=image/content-2.jpg --style_img=image/style.jpg --module=./module1
